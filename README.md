@@ -74,7 +74,9 @@ It demonstrates an **end-to-end data analytics workflow**, starting from raw dat
 
   * Total Sales
   * Total Orders
-  * Average Order Value
+  * Top Product Category
+  * Top Product Type
+  * Top Store Location
 * Sales trend over time (Line chart)
 * Top products (Bar chart)
 * Category distribution (Pie/Bar chart)
@@ -103,42 +105,13 @@ It demonstrates an **end-to-end data analytics workflow**, starting from raw dat
 
 ## 📸 Dashboard Preview
 
-![Dashboard]()
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-
-```id="gbsvzx"
-git clone <your-repo-link>
-```
-
-2. Open the notebook:
-
-```id="9t3a7c"
-notebook/analysis.ipynb
-```
-
-3. View SQL queries:
-
-```id="2g67gj"
-sql/queries.sql
-```
-
-4. Open Power BI dashboard:
-
-```id="9q4b6k"
-dashboard/coffee_dashboard.pbix
-```
+![Dashboard](https://github.com/Rohit-Gupta-07/Coffee-Shop-Sales-Analysis/blob/main/Dashboard1.png)
 
 ---
 
 ## 📬 Contact
 
-* LinkedIn: *(Add your profile link)*
-* GitHub: *(Add your profile link)*
+* LinkedIn: *(https://www.linkedin.com/in/rohit-gupta-10b675365)*
 
 ---
 
