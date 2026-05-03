@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 
 This project analyzes the performance of a coffee shop by exploring sales data, customer behavior, and product trends.
-It demonstrates an **end-to-end data analytics workflow**, starting from raw data to actionable business insights using Python, SQL, and Power BI.
+It demonstrates an **end-to-end data analytics workflow**, starting from raw data to actionable business insights using Excel and Power BI.
 
 ---
 
@@ -19,39 +19,8 @@ It demonstrates an **end-to-end data analytics workflow**, starting from raw dat
 
 ## 🛠️ Tools & Technologies
 
-* **Python (Pandas, NumPy, Matplotlib)** → Data Cleaning & Analysis
-* **SQL** → Data Querying & Aggregation
 * **Power BI** → Dashboard & Visualization
-* **Excel** → Data Storage
-
----
-
-## 📂 Project Structure
-
-```id="u3khw1"
-Coffee-Shop-Performance-Analysis/
-│
-├── data/
-│   ├── raw/
-│   │   └── coffee_raw.xlsx
-│   │
-│   ├── processed/
-│   │   └── coffee_cleaned.xlsx
-│
-├── notebook/
-│   └── analysis.ipynb
-│
-├── sql/
-│   └── queries.sql
-│
-├── dashboard/
-│   └── coffee_dashboard.pbix
-│
-├── assets/
-│   └── dashboard.png
-│
-└── README.md
-```
+* **Excel** → Data Storage , Cleaning & Analysis
 
 ---
 
@@ -62,7 +31,7 @@ Coffee-Shop-Performance-Analysis/
 * Original dataset in Excel format
 * Contains inconsistencies, missing values, and unstructured data
 
-### 🔹 Data Cleaning (Python)
+### 🔹 Data Cleaning (Excel)
 
 * Removed duplicates
 * Handled missing values
@@ -93,7 +62,7 @@ Coffee-Shop-Performance-Analysis/
 * Peak hours and busiest days
 * Sales trends over time
 
-### 4. Store Performance (if applicable)
+### 4. Store Performance 
 
 * Comparison between store locations
 
@@ -134,7 +103,7 @@ Coffee-Shop-Performance-Analysis/
 
 ## 📸 Dashboard Preview
 
-![Dashboard](assets/dashboard.png)
+![Dashboard]()
 
 ---
 
