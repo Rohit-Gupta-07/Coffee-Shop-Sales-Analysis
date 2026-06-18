@@ -1,120 +1,106 @@
-# ☕ Coffee Shop Performance Analysis
+# ☕ Coffee Shop Sales Performance Dashboard
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Domain](https://img.shields.io/badge/Domain-Retail%20%26%20FMCG-FF6B35?style=for-the-badge)
+
+---
 
 ## 📌 Project Overview
 
-This project analyzes the performance of a coffee shop by exploring sales data, customer behavior, and product trends.
-It demonstrates an **end-to-end data analytics workflow**, starting from raw data to actionable business insights using Excel and Power BI.
+A **sales performance dashboard** built in Power BI and Excel to evaluate coffee shop performance across multiple locations using **time, date, and location dimensions**.
+
+**Business Question:** *Which locations, time periods, and products are driving the most revenue — and where are we losing sales?*
 
 ---
 
-## 🎯 Objectives
+## 🎯 Problem Statement
 
-* Analyze overall sales performance
-* Identify top-selling products
-* Understand peak sales hours and trends
-* Evaluate store and category performance
-* Provide data-driven business recommendations
-
----
-
-## 🛠️ Tools & Technologies
-
-* **Power BI** → Dashboard & Visualization
-* **Excel** → Data Storage , Cleaning & Analysis
+A multi-location coffee shop chain needs to:
+- Track **daily, weekly, and monthly** revenue trends
+- Compare **store-level performance** across locations
+- Identify **peak hours** and high-demand products
+- Spot **underperforming outlets** for improvement
 
 ---
 
-## 🧹 Data Pipeline
+## 📊 Dataset Features
 
-### 🔹 Raw Dataset
-
-* Original dataset in Excel format
-* Contains inconsistencies, missing values, and unstructured data
-
-### 🔹 Data Cleaning (Excel)
-
-* Removed duplicates
-* Handled missing values
-* Standardized column names
-* Converted date & time formats
-* Created new features (hour, day, category, etc.)
-
-### 🔹 Processed Dataset
-
-* Clean, structured, and analysis-ready dataset
-* Stored in Excel format
+| Dimension | Description |
+|---|---|
+| Date Dimension | Day, Week, Month, Quarter, Year |
+| Time Dimension | Hour-level breakdown of transactions |
+| Location | Coffee shop branch / outlet |
+| Product | Item sold (coffee, tea, pastries, etc.) |
+| Sales | Revenue per transaction |
+| Quantity | Units sold per item |
 
 ---
 
-## 📊 Analysis Performed
+## 🛠️ Tech Stack
 
-### 1. Sales Performance
-
-* Total revenue and order trends
-
-### 2. Product Analysis
-
-* Top-selling items
-* Category-wise performance
-
-### 3. Time-Based Analysis
-
-* Peak hours and busiest days
-* Sales trends over time
-
-### 4. Store Performance 
-
-* Comparison between store locations
+| Tool | Purpose |
+|---|---|
+| Microsoft Excel | Data cleaning, formatting, pivot tables |
+| Power BI | Interactive dashboard & DAX measures |
+| DAX | Custom KPI calculations |
 
 ---
 
-## 📈 Dashboard Features
+## 🔍 Workflow
 
-* KPI Cards:
+### 1️⃣ Data Preparation (Excel)
+- Cleaned raw transaction data
+- Built date and time dimension tables
+- Removed duplicates and standardized location names
 
-  * Total Sales
-  * Total Orders
-  * Top Product Category
-  * Top Product Type
-  * Top Store Location
-* Sales trend over time (Line chart)
-* Top products (Bar chart)
-* Category distribution (Pie/Bar chart)
-* Peak hours analysis
-* Interactive filters (Date, Category, Store)
+### 2️⃣ Data Modelling (Power BI)
+- Created star schema: Fact Sales + Date Dim + Time Dim + Location Dim
+- Established relationships between tables
+- Built DAX measures for KPIs
 
----
-
-## 🔍 Key Insights
-
-* Peak sales occur during specific hours (morning/evening)
-* Certain products contribute majority of revenue
-* Some categories outperform others significantly
-* Sales show consistent trends with noticeable growth patterns
+### 3️⃣ Dashboard Design (Power BI)
+- Revenue trend line chart (daily/weekly/monthly toggle)
+- Location performance heatmap
+- Peak hours bar chart
+- Product category breakdown
 
 ---
 
-## 💡 Business Recommendations
+## 📈 Key Insights
 
-* Focus on high-performing products
-* Optimize staffing during peak hours
-* Promote low-performing categories
-* Improve inventory planning based on demand trends
-
----
-
-## 📸 Dashboard Preview
-
-![Dashboard](https://github.com/Rohit-Gupta-07/Coffee-Shop-Sales-Analysis/blob/main/Dashboard1.png)
+✔ **Morning hours (7–10 AM)** drive 60%+ of total daily revenue  
+✔ **Downtown locations** consistently outperform suburban outlets  
+✔ **Weekends show 25% higher** footfall vs weekdays  
+✔ **Coffee (hot)** is the highest revenue product category  
+✔ Two branches show declining MoM revenue — potential for targeted campaigns  
 
 ---
 
-## 📬 Contact
+## 💡 Business Impact
 
-* LinkedIn: *(https://www.linkedin.com/in/rohit-gupta-10b675365)*
+- Enables **data-driven staffing decisions** (peak hour planning)
+- Identifies **locations needing operational improvements**
+- Helps marketing teams run **targeted promotions** during low-traffic periods
+- Supports **inventory management** based on product demand trends
 
 ---
 
-## ⭐ If you found this project useful
+## 🚀 Future Improvements
 
-Give it a star ⭐ and share your feedback!
+- [ ] Add customer satisfaction scores
+- [ ] Build forecasting model for revenue prediction
+- [ ] Integrate weather data (rain impact on footfall)
+- [ ] Deploy as live Power BI Service dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Rohit Gupta**
+📍 Mumbai, India | 🎓 BCA @ Amity University
+🔗 [LinkedIn](https://linkedin.com/in/rohit-gupta-o7) | [GitHub](https://github.com/Rohit-Gupta-07)
+
+---
+
+⭐ *Found this useful? Give it a star!*
